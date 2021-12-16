@@ -1,0 +1,16 @@
+.field{
+text-align: center;
+}
+.field input{
+    width: 38%;
+    line-height: 28px;
+    margin-bottom: 60px;
+    font-size: 18px;
+}
+.main{
+    max-width: 1400px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
